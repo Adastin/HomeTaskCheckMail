@@ -1,10 +1,12 @@
+
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
 <suite name="suite1" verbose="1">
     <parameter name="username" value="itransition\v.savin"/>
-    <parameter name="password" value=""/>
+    <parameter name="password" value="2115838"/>
     <test name="CheckMail">
         <classes>
-            <class name="Mail"/>
+            <class name="TestMail"/>
         </classes>
     </test>
 </suite>

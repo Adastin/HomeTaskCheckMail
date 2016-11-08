@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class Mail {
+public class TestMail {
     private WebDriver driver;
     private String username;
     private String password;
