@@ -51,7 +51,7 @@ public class TestMail {
         LoginPage log = new LoginPage(driver);
         log.login(username, password);
         MailPage mailPage = new MailPage(driver);
-        assert(mailPage.checkValidation());
+        assert (mailPage.checkValidation(username));
     }
     @AfterTest
     public void teardown(){

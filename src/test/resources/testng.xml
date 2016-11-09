@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="suite1" verbose="1">
-    <parameter name="username" value="itransition\v.savin"/>
-    <parameter name="password" value="2115838"/>
+    <parameter name="username" value="v.savin"/>
+    <parameter name="password" value="password"/>
     <test name="CheckMail">
         <classes>
             <class name="TestMail"/>

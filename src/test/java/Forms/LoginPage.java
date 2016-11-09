@@ -12,7 +12,7 @@ public class LoginPage {
         this.driver = driver;
     }
     public void login(String username, String password){
-        driver.findElement(By.id(fieldUsername)).sendKeys(username);
+        driver.findElement(By.id(fieldUsername)).sendKeys("itransition\\" + username);
         driver.findElement(By.id(fieldPassword)).sendKeys(password);
         driver.findElement(By.id(buttonSubmit)).click();
     }

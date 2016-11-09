@@ -31,17 +31,7 @@
  T E S T S
 -------------------------------------------------------
 Running TestSuite
-1478636174913	geckodriver	INFO	Listening on 127.0.0.1:1035
-??? 08, 2016 11:16:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1478636175665	mozprofile::profile	INFO	Using profile path C:\Users\vasil\AppData\Local\Temp\rust_mozprofile.zVvrTWvH16zF
-1478636175837	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
-1478636175881	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58547
-1478636178057	Marionette	INFO	Listening on port 58547
-1478636181831	Marionette	INFO	startBrowser 72ef64f9-e5d7-4dc7-a59e-67a6d7d554f9
-??? 08, 2016 11:16:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.054 sec - in TestSuite
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.694 sec - in TestSuite
 
 Results :
 
@@ -50,7 +40,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 33.110s
-[INFO] Finished at: Tue Nov 08 23:16:39 MSK 2016
-[INFO] Final Memory: 19M/224M
+[INFO] Total time: 35.194s
+[INFO] Finished at: Wed Nov 09 15:25:32 MSK 2016
+[INFO] Final Memory: 15M/127M
 [INFO] ------------------------------------------------------------------------
